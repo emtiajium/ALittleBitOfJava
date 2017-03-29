@@ -227,10 +227,10 @@ public class LoveWithBigInteger {
 		
 		BigInteger aBigNumber;
 		
-		aBigNumber = BigInteger.valueOf(5);
+		aBigNumber = BigInteger.valueOf(5); // within integer range
 		System.out.printf("%d\n", aBigNumber);
 		
-		aBigNumber = new BigInteger("1234"); // within integer range
+		aBigNumber = new BigInteger("1234");
 		System.out.println(aBigNumber);
 	}
 }
