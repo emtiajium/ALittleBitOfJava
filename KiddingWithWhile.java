@@ -8,7 +8,7 @@ public class KiddingWithWhile {
 		
 		int howManyTimes = myInput.nextInt();
 		
-		while(howManyTimes --> 0) {
+		while(howManyTimes-- > 0) {
 			System.out.println("Do something");
 		}
 	}
