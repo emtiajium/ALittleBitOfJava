@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class EndOfFile {
+	
 	public static void main(String cLA[]) {
 		
 		Scanner input = new Scanner(System.in);

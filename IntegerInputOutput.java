@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class IntegerInputOutput {
+	
 	public static void main(String cLA[]) {
 		
 		Scanner myInput = new Scanner(System.in);

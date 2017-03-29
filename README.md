@@ -8,7 +8,9 @@
 
 ```java
 public class ShowOutput {
+
 	public static void main(String cLA[]) {
+	
 		System.out.printf("Hello, World!\n");
 		System.out.print("Hello," + " World!\n");
 		System.out.println("Hello, World!");
@@ -62,6 +64,7 @@ import java.util.Scanner;
 import java.util.Scanner;
 
 public class IntegerInputOutput {
+
 	public static void main(String cLA[]) {
 		
 		Scanner myInput = new Scanner(System.in);
@@ -296,6 +299,7 @@ public class BuiltInBigIntegerFunction {
 import java.util.Scanner;
 
 public class EndOfFile {
+
 	public static void main(String cLA[]) {
 		
 		Scanner input = new Scanner(System.in);
@@ -345,7 +349,7 @@ public class KiddingWithWhile {
 * `cd KiddingWithProgramming` লিখে এন্টার দাও। এখন তুমি KiddingWithProgramming ফোল্ডারে।
 * `cd Java` লিখে এন্টার দাও। এখন তুমি Java ফোল্ডারে। (ফাইল লোকেশনে যাওয়ার ঝামেলা কমাতে `ShortCommand.bat` ফাইলটা ব্যবহার করতে পারো।)
 * এবার কম্পাইল করার পালা। `javac Test.java` লিখে এন্টার দাও।
-* এবার রান করার পালা। `java Test` লিখে এন্টার দাও। হয়ে গেলো। বারবার কমান্ড দিয়ে রান করা ঝামেলা। এজন্য তুমি [জিনি আইডিই](https://www.geany.org/) ব্যবহার করতে পারো খুবই কাজের সিম্পল একটা সফটওয়্যার। 
+* এবার রান করার পালা। `java Test` লিখে এন্টার দাও। হয়ে গেলো। বারবার কমান্ড দিয়ে রান করা ঝামেলা। এজন্য তুমি [জিনি](https://www.geany.org/) আইডিই ব্যবহার করতে পারো খুবই কাজের সিম্পল একটা সফটওয়্যার। 
 
 জিনি ব্যবহার করা অনেক সহজ, বিশেষত প্রজেক্ট ছাড়া একটা/একাদিক ফাইল রান করাতে, কিন্তু অনেক কাজ সহজে করতে, বিশেষত টাইপ কম করতে, [ইকলিপস](https://www.eclipse.org/downloads/) বা [নেটবিনস](https://netbeans.org/downloads/) ব্যবহার করতে পারো।
 
